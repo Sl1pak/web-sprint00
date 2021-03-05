@@ -1,0 +1,102 @@
+body{
+	font-family: Source Sans Pro, sans-serif;
+}
+
+
+h1{
+	color: pink;
+}
+
+h2{
+	color: grey;
+	text-align: center;
+}
+
+.help{
+	text-align: center;
+}
+
+.form {
+
+  	margin-left: auto;
+  	max-width: 800px;
+  	margin-right: auto;
+}
+
+ .help, .job, .name, .email {
+   	color: grey;
+}
+
+.block_1, .block_2, .block_3 {
+  	flex-flow: wrap;
+  	justify-content: center;
+  	-moz-user-select: none;
+  	-webkit-user-select: none;
+  	user-select: none;
+}
+
+.block_1, .block_2, .block_3, .block_5 {
+  	display: flex;
+}
+
+.checkbox {
+  	display: none;
+}
+
+.help{
+  	border: 1px solid grey;
+  	border-radius: 20px;
+  	margin: 20px;
+  	padding-bottom: 20px;
+  	padding-top: 20px;
+  	width: 200px;
+}
+
+.help:hover, .button_sub:hover {
+  	cursor: pointer;
+}
+
+.checkbox:checked + .help, .button_sub {
+  	color: white;
+}
+
+.checkbox:checked + .help, .button_sub:hover {
+  	background: black;
+}
+
+.checkbox:checked + .help::after {
+  	content: '✚';
+  	font-style: italic;
+  	margin-left: 5px;
+}
+
+.job, .name, .email, .button_sub {
+  	outline: 0;
+}
+
+.job, .name, .email {
+  	border-bottom: 2px solid gray;
+  	border-left: 0;
+  	border-right: 0;
+  	border-top: 0;
+  	height: 50px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+}
+
+.job, .button_sub {
+ 	width: 100%;
+}
+
+.name, .email {
+  	width: 47%;
+  	margin: 20px;
+}
+
+.button_sub{
+  	background: pink;
+  	border: 0;
+  	height: 50px;
+  	transition: background-color 1s ease-in-out;
+  	margin: 10px;
+}

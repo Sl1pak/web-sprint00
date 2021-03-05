@@ -1,0 +1,182 @@
+.title{
+	text-align: center;
+}
+
+
+.image_1{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 43.5%;
+	float: left
+}
+
+.image_2{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 53%;
+	float: left;
+}
+
+.image_3{
+	margin-left: 20px;
+	width: 37.9%;
+	float: left;
+}
+
+.image_4{
+	margin-left: 20px;
+	width: 30.5%;
+	float: left;
+}
+
+.image_5{
+	margin-left: 15px;
+	width: 26%;
+	float: left;
+}
+
+.image_6{
+	margin-left: 20px;
+	width: 18%;
+	float: left;
+}
+
+.image_7{
+	margin-left: 25px;
+	width: 26.7%;
+	float: left;
+}
+
+.image_8{
+	margin-left: 75px;
+	width: 13%;
+	float: left;
+}
+
+.image_9{
+	margin-left: 20px;
+	width: 30.5%;
+	float: left;
+}
+
+.comics{
+	border: 5px solid black;
+}
+
+@media only screen and (max-width: 1366px){
+	.image_1{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 65%;
+	float: left
+	}
+
+	.image_2{
+	margin-left: 20px;
+	margin-top: -2px;
+	width: 80%;
+	float: left;
+	}
+
+	.image_3{
+	margin-left: 20px;
+	width: 60%;
+	float: left;
+	}
+
+	.image_4{
+	margin-left: 20px;
+	width: 51.8%;
+	float: left;
+	}
+
+	.image_5{
+	margin-left: -2px;
+	width: 44%;
+	float: left;
+	}
+
+	.image_6{
+	margin-left: 20px;
+	width: 33%;
+	float: left;
+	}
+
+	.image_7{
+	margin-left: 0px;
+	width: 49.3%;
+	float: left;
+	}
+
+	.image_8{
+	margin-left: 20px;
+	width: 23.3%;
+	float: left;
+	}
+
+	.image_9{
+	margin-left: 0px;
+	width: 55%;
+	float: left;
+	}
+
+}
+
+@media only screen and (max-width: 640px){
+	.image_1{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 78%;
+	float: left
+	}
+
+	.image_2{
+	margin-left: 10px;
+	margin-top: -2px;
+	width: 85%;
+	float: left;
+	}
+
+	.image_3{
+	margin-left: 10px;
+	width: 75%;
+	float: left;
+	}
+
+	.image_4{
+	margin-left: 10px;
+	width: 58%;
+	float: left;
+	}
+
+	.image_5{
+	margin-left: 10px;
+	width: 50%;
+	float: left;
+	}
+
+	.image_6{
+	position: absolute;
+	bottom: -375px;
+	right: 45px;
+	width: 34%;
+	}
+
+	.image_7{
+	margin-left: 10px;
+	width: 53%;
+	float: left;
+	}
+
+	.image_8{
+	margin-left: 0px;
+	width: 25.6%;
+	float: left;
+	}
+
+	.image_9{
+	margin-left: 10px;
+	width: 60%;
+	float: left;
+	}
+}

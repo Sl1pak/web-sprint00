@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+}
+
+.circle{
+	background-color: green;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	transition: background-color 2s ease-in-out;
+	animation: sliden 10s linear infinite alternate;
+}
+
+.circle:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+@keyframes sliden {
+	to{
+		margin-left: calc(100% - 300px);
+	}
+}

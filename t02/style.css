@@ -1,0 +1,12 @@
+.gauntlet{
+	height: 300px;
+}
+
+.man img{
+	height: 100px;
+}
+
+.gauntlet:hover ~ .man p:nth-child(odd) .image:nth-child(odd), 
+.gauntlet:hover ~ .man p:nth-child(even) .image:nth-child(even){
+	visibility: hidden;
+}
