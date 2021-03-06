@@ -156,9 +156,9 @@
 	}
 
 	.image_6{
-	position: absolute;
-	bottom: -375px;
-	right: 45px;
+	position: relative;
+	bottom: 185px;
+	left: 30px;
 	width: 34%;
 	}
 

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Oscorp</title>
+    <meta name="description"content="t07. Oscorp"charset="utf-8">
+    <link rel="stylesheet"href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-main">
+        <a href="#" class="logo">OSCORP</a>
+        <div class="wrapper">
+          <a class="nav-item" href="#">About</a>
+          <a class="nav-item" href="#">Service</a>
+          <a class="nav-item" href="#">Contact</a>
+          <input placeholder="Search" class="search" />
+        </div>
+        <span class="phone">Phone: <a href="#" class="phone-link">+380898958288</a></span>
+      </nav>
+      <nav class="nav-secondary">
+        <div><a href="#" class="nav-item-secondary">Home</a> / <span>Catalog</span></div>
+      </nav>
+    </header>
+    <section class="catalog">
+      <h1>Catalog</h1>
+      <div class="selected-filters">
+        <div class="filter">Weapon&nbsp;&nbsp;&nbsp;✓</div>
+        <div class="filter">Alien&nbsp;&nbsp;&nbsp;✓</div>
+        <div class="filter">Green&nbsp;&nbsp;&nbsp;✓</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="filters-wrapper">
+          <div>
+            <span>Chance of Lethal Effect</span>
+            <div class="squaredTwoo">
+              <input type="checkbox" id="unlikely">
+              <label for="unlikely">Unlikely (0-20%)</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="mild">
+              <label for="mild">Mild (20-40%)</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="moderate">
+              <label for="moderate">Moderate (40-60%)</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="likely">
+              <label for="likely">Likely (60-80%)</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="certain">
+              <label for="certain">Certain (80-100%)</label>
+            </div>
+          </div>
+          <div>
+            <label for="price">Price</label>
+            <input id="price" type="range" min="0" max="20000">
+            <div class="range">
+              <span>0</span>
+              <span>20000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-wrapper">
+          <div class="card">
+            <img src="assets/images/spider.jpg" />
+            <div class="text-wrapper">
+              <span class="title">RADIOACTIVE SPIDER</span>
+              <span class="price">3499.99$</span>
+              <span class="status" attr="not available">not available</span>
+              <button attr="not available" class="buy">BUY</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/images/bomb.jpg" />
+            <div class="text-wrapper">
+              <span class="title">GOBLIN PUMPKIN BOMB</span>
+              <span class="price">214.50$</span>
+              <span class="status" attr="available">available</span>
+              <a href="card.html"><button attr="available" class="buy">BUY</button></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/images/glider.jpg" />
+            <div class="text-wrapper">
+              <span class="title">GOBLIN GLIDER</span>
+              <span class="price">9200.00$</span>
+              <span class="status" attr="available">available</span>
+              <a href="card.html"><button attr="available" class="buy">BUY</button></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/images/spider.jpg" />
+            <div class="text-wrapper">
+              <span class="title">RADIOACTIVE SPIDER</span>
+              <span class="price">3499.99$</span>
+              <span class="status" attr="not available">not available</span>
+              <button attr="not available" class="buy">BUY</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <footer class="footer">
+      <span>Copyright © 2013 | OSCORP | All Right Reserved</span>
+      <span>Terms of Service | Privacy Policy</span>
+    </footer>
+  </body>
+
+</html>

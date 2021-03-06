@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Settings</title>
+	<meta name="description" content="t10. Settings">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1 class="title">Settings</h1>
+	<div class="main-container">
+		<div class="container">
+			<div class="block1">
+			<div class="block-first">
+          		<p><label class="text" for="typeface">Typeface</label></p>
+          		<select class="typeface" name="typeface" id="typeface">
+           			<option value="1" selected>Acunim Pro</option>
+            		<option value="2">Comic Sans</option>
+            		<option value="3" disabled>Times New Roman</option>
+          		</select>
+        	</div>
+        	<div class="block-second">
+        		<label class="text">Dark UI</label>
+        		<label class="switch">
+  					<input type="checkbox">
+  					<span class="slider round"></span>
+			</label>
+        	</div>
+        </div>
+        <div class="block2">
+        	<div class="block-weight">
+        		<label class="text">Weight</label>
+        		<div class="wei-block">
+        		<br><input class="font-weight" type="radio" name="font-weight" value="regular" id="regular" checked><label class="text" for="regular"> Regular</label>
+            	<input class="font-weight" type="radio" name="font-weight" value="bold" id="bold"><label class="text" for="bold"> Bold</label>
+            	</div>
+        	</div>
+        	<div class="block-color">
+        		<label class="text">Color</label>
+        		<br>
+        		<input class="checkbox" type="checkbox" name="blue" id="blue">
+            	<label class="color-pick" for="blue"></label>
+            	<input class="checkbox" type="checkbox" name="green" id="green" checked>
+            	<label class="color-pick" for="green"></label>
+            	<input class="checkbox" type="checkbox" name="pink" id="pink">
+            	<label class="color-pick" for="pink"></label>
+            	<input class="checkbox" type="checkbox" name="yellow" id="yellow">
+            	<label class="color-pick" for="yellow"></label>
+            	<input class="checkbox" type="checkbox" name="orange" id="orange" checked>
+            	<label class="color-pick" for="orange"></label>
+        	</div>
+        </div>
+        	<div class="block-size">
+        		<label class="text">Size</label>
+        		<br><input class="font-size" type="range" name="font-size" min="0" max="10" step="1" value="4">
+        	</div>
+		</div>
+		<div class="panel-container">
+			<img class="panel-image" src="assets/images/artistic-brush.png">
+			<img class="panel-image" src="assets/images/user-icon.png">
+			<img class="panel-image" src="assets/images/sms-speech-bubble.png">
+			<img class="panel-image" src="assets/images/computer-screen.png">
+		</div>		
+	</div>
+</body>
+
+</html>
